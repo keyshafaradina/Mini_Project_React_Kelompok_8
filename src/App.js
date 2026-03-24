@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/keysha" element={<Keysha />} />
+        <Route path="/" element={<Keysha />} />
       </Routes>
     </BrowserRouter>
   );
