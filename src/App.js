@@ -1,8 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Keysha from "./profil/Keysha";
+
 function App() {
   return (
-    <h1 className="text-5xl text-red-500 font-bold">
-      TEST TAILWIND
-    </h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Keysha />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
